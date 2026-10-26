@@ -68,7 +68,7 @@ export default function TambahMenu() {
                 <label className="form-label fw-semibold">Harga *</label>
                 <div className="input-group">
                   <span className="input-group-text">Rp</span>
-                  <input name="harga" type="number" min="0" value={form.harga} onChange={onChange} className="form-control" placeholder="35000" required />
+                  <input name="harga" type="number" min="0" value={form.harga} onChange={onChange} className="form-control" placeholder="masukkan harga" required />
                 </div>
               </div>
               <div className="col-12 col-sm-6">

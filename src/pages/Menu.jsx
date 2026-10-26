@@ -3,11 +3,11 @@ import { Link } from 'react-router-dom'
 import { rupiah } from './Pesanan'
 
 const menus = [
-  { id: 1, emoji: '🍛', nama: 'Nasi Goreng Spesial', kategori: 'Makanan', harga: 35000, stok: 20 },
-  { id: 2, emoji: '🍔', nama: 'Chicken Burger', kategori: 'Makanan', harga: 28000, stok: 15 },
-  { id: 3, emoji: '🍜', nama: 'Mie Ayam', kategori: 'Makanan', harga: 18000, stok: 10 },
-  { id: 4, emoji: '🥤', nama: 'Es Kopi Susu', kategori: 'Minuman', harga: 15000, stok: 25 },
-  { id: 5, emoji: '🍟', nama: 'French Fries', kategori: 'Snack', harga: 12000, stok: 30 },
+  { id: 1, nama: 'Nasi Goreng Spesial', kategori: 'Makanan', harga: 35000, stok: 20 },
+  { id: 2, nama: 'Chicken Burger', kategori: 'Makanan', harga: 28000, stok: 15 },
+  { id: 3, nama: 'Mie Ayam', kategori: 'Makanan', harga: 18000, stok: 10 },
+  { id: 4, nama: 'Es Kopi Susu', kategori: 'Minuman', harga: 15000, stok: 25 },
+  { id: 5, nama: 'French Fries', kategori: 'Snack', harga: 12000, stok: 30 },
 ]
 
 export default function Menu() {
