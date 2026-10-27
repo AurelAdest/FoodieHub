@@ -6,6 +6,7 @@ import Dashboard from './pages/Dashboard'
 import Menu from './pages/Menu'
 import Pesanan from './pages/Pesanan'
 import TambahMenu from './pages/TambahMenu'
+import TambahPesanan from './pages/TambahPesanan'
 
 export default function App() {
   return (
@@ -21,6 +22,7 @@ export default function App() {
               <Route path="/menu" element={<Menu />} />
               <Route path="/menu/tambah" element={<TambahMenu />} />
               <Route path="/pesanan" element={<Pesanan />} />
+              <Route path="/pesan" element={<TambahPesanan />} />
             </Routes>
           </main>
         </div>
