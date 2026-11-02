@@ -5,6 +5,7 @@ const links = [
   { to: '/dashboard', icon: 'bar-chart-line', label: 'Penjualan' },
   { to: '/menu', icon: 'cup-hot', label: 'Menu' },
   { to: '/pesanan', icon: 'receipt', label: 'Pesanan' },
+  { to: '/pengaturan-akun', icon: 'gear', label: 'Pengaturan Akun' },
 
 ]
 
@@ -37,6 +38,7 @@ export default function Sidebar() {
         {bottom(dashboard)}
         {bottom(menu)}
         {bottom(pesanan)}
+        {links.map((l) => bottom(l))}
       </nav>
     </>
   )
