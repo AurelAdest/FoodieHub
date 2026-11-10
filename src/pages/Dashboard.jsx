@@ -33,7 +33,6 @@ export default function Dashboard() {
     <>
       <h1 className="h3 fw-bold">Penjualan</h1>
       <p className="text-muted mb-4">Rekap penjualan restoran Anda.</p>
-
       <div className="row row-cols-1 row-cols-sm-2 row-cols-xl-4 g-3 mb-4">
         {stats.map((s) => (
           <div className="col" key={s.label}>

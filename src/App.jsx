@@ -83,6 +83,7 @@ export default function App() {
               <Route
                 path="/pengaturan-akun"
                 element={<PengaturanAkun />}
+              />
 
               <Route
                 path="/login"
