@@ -8,10 +8,10 @@ import { orders, statusClass, rupiah } from './Pesanan'
 ChartJS.register(CategoryScale, LinearScale, PointElement, LineElement, Filler, Tooltip)
 
 const stats = [
-  { label: 'Total Menu', value: '12', note: '+2 baru', icon: 'journal-text', green: false },
-  { label: 'Total Pesanan', value: '48', note: '+12% dari kemarin', icon: 'cart', green: true },
-  { label: 'Total Pendapatan', value: 'Rp 4.850.000', note: '+15% dari kemarin', icon: 'cash-stack', green: true },
-  { label: 'Pelanggan Aktif', value: '32', note: '+5% dari kemarin', icon: 'person', green: false },
+  { label: 'Total Menu', value: '3', note: '+2 baru', icon: 'journal-text', green: false },
+  { label: 'Total Pesanan', value: '5', note: '+12% dari kemarin', icon: 'cart', green: true },
+  { label: 'Total Pendapatan', value: 'Rp 4.000.000', note: '+15% dari kemarin', icon: 'cash-stack', green: true },
+  { label: 'Pelanggan Aktif', value: '15', note: '+1% dari kemarin', icon: 'person', green: false },
 ]
 
 const chartData = {
@@ -31,7 +31,7 @@ const chartOptions = {
 export default function Dashboard() {
   return (
     <>
-      <h1 className="h3 fw-bold">Dashboard</h1>
+      <h1 className="h3 fw-bold">Penjualan</h1>
       <p className="text-muted mb-4">Rekap penjualan restoran Anda.</p>
 
       <div className="row row-cols-1 row-cols-sm-2 row-cols-xl-4 g-3 mb-4">
@@ -50,13 +50,7 @@ export default function Dashboard() {
       </div>
 
       <div className="row g-3">
-        <div className="col-12 col-xl-6">
-          <div className="card-soft p-3 p-md-4 h-100">
-            <h6 className="fw-bold">Statistik Pesanan (7 Hari Terakhir)</h6>
-            <div style={{ height: 260 }}><Line data={chartData} options={chartOptions} /></div>
-          </div>
-        </div>
-        <div className="col-12 col-xl-6">
+        <div className="col-12 col-xl-12">
           <div className="card-soft p-3 p-md-4 h-100">
             <div className="d-flex justify-content-between">
               <h6 className="fw-bold">Pesanan Terbaru</h6>

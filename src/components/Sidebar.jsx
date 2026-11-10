@@ -5,6 +5,7 @@ const links = [
   { to: '/dashboard', icon: 'bar-chart-line', label: 'Penjualan' },
   { to: '/menu', icon: 'cup-hot', label: 'Menu' },
   { to: '/pesanan', icon: 'receipt', label: 'Pesanan' },
+  { to: '/pengaturan-akun', icon: 'gear', label: 'Pengaturan Akun' },
 
 ]
 
@@ -32,12 +33,13 @@ export default function Sidebar() {
       </aside>
 
       {/* Mobile: bottom navigation */}
-      <nav className="bnav d-lg-none">
+      {/* <nav className="bnav d-lg-none">
         {bottom(beranda)}
         {bottom(dashboard)}
         {bottom(menu)}
         {bottom(pesanan)}
-      </nav>
+        {links.map((l) => bottom(l))}
+      </nav> */}
     </>
   )
 }

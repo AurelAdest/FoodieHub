@@ -9,6 +9,8 @@ import Dashboard from './pages/Dashboard'
 import Menu from './pages/Menu'
 import Pesanan from './pages/Pesanan'
 import TambahMenu from './pages/TambahMenu'
+import TambahPesanan from './pages/TambahPesanan'
+import PengaturanAkun from './pages/PengaturanAkun'
 import Login from './pages/Login'
 
 const DEMO_EMAIL = 'admin123@gmail.com'
@@ -77,6 +79,10 @@ export default function App() {
               <Route path="/menu" element={<Menu />} />
               <Route path="/menu/tambah" element={<TambahMenu />} />
               <Route path="/pesanan" element={<Pesanan />} />
+              <Route path="/pesan" element={<TambahPesanan />} />
+              <Route
+                path="/pengaturan-akun"
+                element={<PengaturanAkun />}
 
               <Route
                 path="/login"
