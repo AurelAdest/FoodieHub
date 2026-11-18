@@ -33,13 +33,13 @@ export default function Sidebar() {
       </aside>
 
       {/* Mobile: bottom navigation */}
-      {/* <nav className="bnav d-lg-none">
+      {<nav className="bnav fixed-bottom d-lg-none d-flex justify-content-evenly align-items-center w-100">
         {bottom(beranda)}
         {bottom(dashboard)}
         {bottom(menu)}
         {bottom(pesanan)}
-        {links.map((l) => bottom(l))}
-      </nav> */}
+        {/* {links.map((l) => bottom(l))} */}
+      </nav>}
     </>
   )
 }
