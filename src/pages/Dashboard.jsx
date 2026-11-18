@@ -1,3 +1,4 @@
+// import buat pengambilan fungsi/data dari library maupun file lain yang digunakan di dashboard
 import { Link } from 'react-router-dom'
 import { Line } from 'react-chartjs-2'
 import {
