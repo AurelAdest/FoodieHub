@@ -37,5 +37,23 @@ FoodieHub adalah aplikasi admin dengan banyak komponen standar: tabel, kartu sta
 ## Screenshot
 Simpan di `docs/screenshots/` (desktop & mobile untuk tiap halaman):
 
-![Desktop](docs/screenshots/desktop-dashboard.png)
-![Mobile](docs/screenshots/mobile-dashboard.png)
+### Mobile
+![Beranda](docs/screenshots/WEB-Beranda.png)
+![Login](docs/screenshots/WEB-Login.png)
+![Logout](docs/screenshots/WEB-Logout.png)
+![Menu](docs/screenshots/WEB-Menu.png)
+![Pengaturan Akun](docs/screenshots/WEB-Pengaturan akun.png)
+![Pesanan](docs/screenshots/WEB-Pesanan.png)
+![Rekap Penjualan](docs/screenshots/WEB-Rekap Penjualan.png)
+![Tambah Menu](docs/screenshots/WEB-Tambah menu.png)
+![Tambah Pesanan](docs/screenshots/WEB-Tambah pesanan.png)
+
+### Mobile
+![Beranda](docs/screenshots/MOBILE-Beranda.png)
+![Login](docs/screenshots/MOBILE-Login.png)
+![Logout](docs/screenshots/MOBILE-Logout.png)
+![Menu](docs/screenshots/MOBILE-Menu.png)
+![Pesanan](docs/screenshots/MOBILE-Pesanan.png)
+![Rekap Penjualan](docs/screenshots/MOBILE-Rekap penjualan.png)
+![Tambah Menu](docs/screenshots/MOBILE-Tambah menu.png)
+![Tambah Pesanan](docs/screenshots/MOBILE-Tambah pesanan.png)
